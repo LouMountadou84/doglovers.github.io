@@ -1,0 +1,203 @@
+* {
+ margin: 0;
+}
+
+html, body {height: 100%;}
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	/*background-image: url(../images/FreeGreatPicture.com-20247-candy-painted-background.jpg);*/
+	background-image: url(../images/IMG_0834.JPG);
+    /*background-image: url(../images/クリスマスマーケット.jpg);*/
+    background-size: cover;
+	background-position: 50% 50%;
+	background-attachment: fixed;
+}
+ .header {
+    height: 100px;
+    background: #CCD1C5;
+    border: 1px solid #CCC;
+    box-shadow: 2px 0 5px 5px white;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+ }
+ .anchor {
+    display: block;
+    height: 100px;
+    margin-top: -100px;
+    visibility: hidden;
+ }
+ .aboutme {
+ 	background: rgba(255,255,255,0.8);
+ 	width: 1400px;
+ 	margin: 0 auto;
+ 	border-radius: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+ 	/*padding: 40px;*/
+    box-shadow: 2px 0 5px 5px white;
+    margin-top: 80px;
+    margin-bottom: 200px;
+ }
+ .language {
+    background: rgba(255,255,255,0.8);
+    width: 1400px;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    /*padding: 40px;*/
+    box-shadow: 2px 0 5px 5px white;
+    margin-bottom: 200px;
+ }
+ .project {
+    background: rgba(255,255,255,0.8);
+    width: 1400px;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    /*padding: 40px;*/
+    box-shadow: 2px 0 5px 5px white;
+    margin-bottom: 200px;
+ }
+ table {
+   width: 90%;
+   height: 90%;  
+ }
+ .shot {
+    width: 350px;
+    height: 350px;
+    float: left;
+    margin-left: 80px;
+    border-radius: 5px;
+    border: 5px solid #CCD1C5;
+ }
+ 
+ #footer {
+    background: #CCD1C5;
+    width: 110%;
+    position: relative;
+    margin-left: 0px;
+    right: 0px;
+    height: 130px;
+    padding-top: 20px;
+    margin-bottom: 0px;
+ }
+#div {
+   background-color: #80AD98;
+   width: 100%;
+   margin-top: 10px;
+   margin-bottom: 20px;
+
+
+
+}
+h1 {
+    text-shadow: 2px 2px #B5B5B0;
+    color: #F4F5EB;
+    font-size: 40px;
+    position: relative;
+    font-family: 'Changa One', cursive;
+}
+#baloons {
+    width: 105%;
+    height: 1000px;
+}
+h2 {
+	letter-spacing: 2px;
+	font-weight: normal;
+	text-align: center;
+	margin-top: 10px;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+h3{
+    margin-top: 0;
+    font-size: 24px;
+    text-align: center;
+   
+    color: #ED926B;
+}
+#me {
+    margin-left: -0%;
+}
+.link {
+    float: right;
+    background: white;
+    padding: 10px;
+    margin-right: 50px;
+    text-decoration: none;
+}
+.link a {
+    color: #80AD98;
+}
+/*h3.first {
+    font-size: 24px;
+}*/
+/*This resizes and centres the image */
+.div {
+    background-color: #80AD98;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.text {
+    width: 700px;
+    margin: 0 auto;
+}
+.list {
+   text-align: center;
+}
+.facebook {
+    width: 60px;
+    height: 60px;
+    float: left;
+    /*position: center; */
+    margin-left: 43%; 
+    
+}
+.twitter {
+    width: 60px;
+    height: 60px;
+    float: left;
+    margin-left: 6px;
+    /*position: center;*/  
+}
+.linkedin {
+    width: 60px;
+    height: 60px;
+    margin-left: 6px;
+    float: left;
+    /*position: center;*/  
+}
+.face {
+     width: 100px;
+     float: left;
+     margin-top: 5px;
+     margin-left: 10px;
+     margin-right: 10px;
+     border-radius: 5px;
+     border: 3px solid white;
+    }
+    ul,
+    ol{
+    	list-style-type: none;
+    	padding-left: 0px;
+    }
+    a{
+    	color: rgb(240,50,20);
+    	text-decoration: none;
+    	font-weight: bold;
+    }
+    a:hover,
+    a:focus {
+    	text-decoration: underline;
+    	color: rgb(255,120,80);
+    }
+    ol li{
+        text-transform: uppercase;
+    }
+
+
